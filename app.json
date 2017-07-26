@@ -1,9 +1,12 @@
 {
   "pages":[
     "pages/home/home",
-    "page/movie/movie",
-    "page/book/book",
+    "pages/movie/movie",
+    "pages/book/book",
     "pages/mine/mine",
+    "pages/mine/about/about",
+    "pages/mine/feedback/feedback",
+    "pages/mine/introduce/introduce",
     "pages/index/index",
     "pages/logs/logs"
   ],
