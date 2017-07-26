@@ -28,13 +28,13 @@
       "selectedIconPath": "images/tab_contact_selected.png"
     },
     {
-      "pagePath": "pages/mine/mine",
+      "pagePath": "pages/movie/movie",
       "text": "电影",
       "iconPath": "images/tab_message_normal.png",
       "selectedIconPath": "images/tab_message_selected.png"
     },
     {
-      "pagePath": "pages/mine/mine",
+      "pagePath": "pages/book/book",
       "text": "图书",
       "iconPath": "images/tab_message_normal.png",
       "selectedIconPath": "images/tab_message_selected.png"

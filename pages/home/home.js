@@ -15,7 +15,16 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    
+     wx.request({
+       method:'GET',
+       url: 'https://api.douban.com/v2/book/1220562',
+       header: {
+         'content-type': 'application/json'
+       },
+       success: function (res) {
+         console.log(res.data)
+       }
+     })
   },
 
   /**
