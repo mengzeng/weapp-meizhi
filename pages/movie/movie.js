@@ -1,30 +1,17 @@
 Page({
+
   /**
    * 页面的初始数据
    */
   data: {
-    isShowText: true,
-    imgUrls:[
-      'http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg',
-      'http://img06.tooopen.com/images/20160818/tooopen_sy_175866434296.jpg',
-      'http://img06.tooopen.com/images/20160818/tooopen_sy_175833047715.jpg'
-    ],
+    
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-     wx.request({
-       method:'GET',
-       url: 'https://api.douban.com/v2/book/1220562',
-       header: {
-         'content-type': 'json'
-       },
-       success: function (res) {
-         console.log(res.data)
-       }
-     })
+    
   },
 
   /**

@@ -1,7 +1,12 @@
 {
   "pages":[
     "pages/home/home",
+    "pages/movie/movie",
+    "pages/book/book",
     "pages/mine/mine",
+    "pages/mine/about/about",
+    "pages/mine/feedback/feedback",
+    "pages/mine/introduce/introduce",
     "pages/index/index",
     "pages/logs/logs"
   ],
@@ -21,6 +26,18 @@
       "text": "首页",
       "iconPath": "images/tab_contact_normal.png",
       "selectedIconPath": "images/tab_contact_selected.png"
+    },
+    {
+      "pagePath": "pages/movie/movie",
+      "text": "电影",
+      "iconPath": "images/tab_message_normal.png",
+      "selectedIconPath": "images/tab_message_selected.png"
+    },
+    {
+      "pagePath": "pages/book/book",
+      "text": "图书",
+      "iconPath": "images/tab_message_normal.png",
+      "selectedIconPath": "images/tab_message_selected.png"
     },
     {
       "pagePath": "pages/mine/mine",
