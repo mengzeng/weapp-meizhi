@@ -19,7 +19,7 @@ Page({
        method:'GET',
        url: 'https://api.douban.com/v2/book/1220562',
        header: {
-         'content-type': 'application/json'
+         'content-type': 'json'
        },
        success: function (res) {
          console.log(res.data)
