@@ -7,4 +7,18 @@ autoplay="true" interval="3000">
     </swiper-item>
   </block>
 </swiper> 
+<view class="view-recommand">
+<view class="item-left">
+<image src="/images/public.png" class="image"></image>
+<view>
+<text class="text-public">22</text>
+</view>
+</view>
+<view class="item-right">
+<image src="/images/friend.png" class="image"></image>
+</view>
+<view class="item-right">
+<image src="/images/chart.png" class="image"></image>
+</view>
+</view>
 </view>
