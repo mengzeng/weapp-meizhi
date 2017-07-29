@@ -1,1 +1,14 @@
-<view class="class_moview">电影</view>>
+<view class="movie_page">
+<view class="movie_header">
+<image src="/images/movie_header.jpg" class="image_header" style="height:120rpx;width:120rpx"/>
+<view style="margin-left:30rpx">
+ <view style="font-size:35rpx;margin-top:20rpx;font-color:#ff333333">豆瓣电影Top250</view>
+ <view style="font-size:25rpx;margin-top:20rpx;font-color:#666">从前过去了现在不再来</view> 
+</view>
+<image src="/images/arrow.png" class="arrow_img"/>
+</view>
+<view style="display:flex">
+<view class="vetural_line"></view>
+<text style="font-size:30rpx;font-color:#666">热映榜</text>
+</view>
+</view>

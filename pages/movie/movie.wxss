@@ -1,0 +1,24 @@
+
+.movie_page{
+background: #f9f9f9;
+}
+.movie_header{
+  background:#ffffff;
+  display: flex;
+  width: 90%;
+    margin: 40rpx;
+}
+.arrow_img{
+  position: absolute;
+  right: 80rpx;
+  height: 35rpx;
+  width: 35rpx;
+  margin-top: 40rpx;
+}
+.vetural_line{
+  margin-left:15rpx;
+  margin-right: 15rpx;
+  background-color: red;
+  height: 30rpx;
+  width: 6rpx;
+}

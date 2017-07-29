@@ -1,7 +1,8 @@
 {
   "pages":[
+      "pages/movie/movie",
     "pages/home/home",
-    "pages/movie/movie",
+  
     "pages/book/book",
     "pages/mine/mine",
     "pages/mine/about/about",
@@ -17,33 +18,33 @@
     "navigationBarTextStyle":"black"
   },
   "tabBar": {
-        "color": "#9B9DB1",
-        "selectedColor": "#3cc51f",
+        "color": "#8a8a8a",
+        "selectedColor": "#fcaf54",
         "borderStyle": "black",
         "backgroundColor": "#ffffff",        
     "list": [{
       "pagePath": "pages/home/home",
       "text": "首页",
-      "iconPath": "images/tab_contact_normal.png",
-      "selectedIconPath": "images/tab_contact_selected.png"
+      "iconPath": "images/tab_home_nomal.png",
+      "selectedIconPath": "images/tab_home_select.png"
     },
     {
       "pagePath": "pages/movie/movie",
       "text": "电影",
-      "iconPath": "images/tab_message_normal.png",
-      "selectedIconPath": "images/tab_message_selected.png"
+      "iconPath": "images/tab_movie_nomal.png",
+      "selectedIconPath": "images/tab_movie_select.png"
     },
     {
       "pagePath": "pages/book/book",
       "text": "图书",
-      "iconPath": "images/tab_message_normal.png",
-      "selectedIconPath": "images/tab_message_selected.png"
+      "iconPath": "images/tab_book_nomal.png",
+      "selectedIconPath": "images/tab_book_select.png"
     },
     {
       "pagePath": "pages/mine/mine",
       "text":"我的",
-      "iconPath":"images/tab_message_normal.png",
-      "selectedIconPath":"images/tab_message_selected.png"
+      "iconPath":"images/tab_mine_nomal.png",
+      "selectedIconPath":"images/tab_mine_select.png"
     }
     ]
   }

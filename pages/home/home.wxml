@@ -8,18 +8,41 @@ autoplay="true" interval="3000">
   </block>
 </swiper> 
 <view  class="item">
-
     <view class="item_left" class="top_image"  bindtap="isShowToast">
-        <image src="/images/friend.png" class="image"/>
-        <view class="mark" ><text class="text">新朋友</text></view>
+        <image src="/images/food.png" class="image"/>
+        <view class="mark" ><text class="text">热映</text></view>
     </view>
     <view class="item_right" class="top_image" bindtap="isShowToast">
-        <image src="/images/chart.png" class="image"/>
-        <view class="mark" ><text class="text-middle">群聊</text></view>
+        <image src="/images/satin.png" class="image"/>
+        <view class="mark" ><text class="text-middle">段子</text></view>
     </view>
     <view class="item_right" class="top_image" bindtap="isShowToast">
-        <image src="/images/public.png" class="image"/>
-        <view class="mark" ><text class="text">公众号</text></view>
+        <image src="/images/girl.png" class="image"/>
+        <view class="mark" ><text class="text-middle">福利</text></view>
     </view>
 </view>
+<view class="line_arrow"/>
+<view class="view-android">
+<view>
+<image src="/images/android.png" class="image_android"/> 
+<text class="text_android">Android</text> 
+<view class="view_anroid_right">
+<text class=" text_more">更多</text>
+<image src="/images/arrow.png" class="image_arrow"/>
+</view>
+</view>
+<image src="http://img06.tooopen.com/images/20160818/tooopen_sy_175833047715.jpg" style="width:100%; height:250rpx"/>
+</view> 
+<view class="line_arrow"/>
+<view class="view-android">
+<view>
+<image src="/images/ios.png" class="image_android"/> 
+<text class="text_android">IOS</text> 
+<view class="view_anroid_right">
+<text class=" text_more">更多</text>
+<image src="/images/arrow.png" class="image_arrow"/>
+</view>
+</view>
+</view> 
+<image src="http://img06.tooopen.com/images/20160818/tooopen_sy_175833047715.jpg" style="width:100%; height:250rpx"/>
 </view>
