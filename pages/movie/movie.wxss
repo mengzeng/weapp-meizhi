@@ -1,4 +1,3 @@
-
 .movie_page{
 background: #f9f9f9;
 }
@@ -21,4 +20,11 @@ background: #f9f9f9;
   background-color: red;
   height: 30rpx;
   width: 6rpx;
+}
+.movie_item{
+  display: flex;
+}
+.movie_item_img{
+  height: 300rpx;
+  width: 300rpx;
 }
