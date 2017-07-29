@@ -1,8 +1,9 @@
 {
   "pages":[
+      "pages/home/home",
       "pages/movie/movie",
-    "pages/home/home",
-
+  
+"pages/home/girl/girl",
     "pages/book/book",
     "pages/mine/mine",
     "pages/mine/about/about",

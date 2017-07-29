@@ -1,4 +1,7 @@
 <view> 
+<toast hidden="{{isHiddenToast}}" stytle="display:flex  width:100rpx" duration="1000" bindchange="toastChange">
+    努力开发中...
+  </toast>
  <swiper class="swiper"  indicator-dots="true" indicator-color="#ffffff" 
 autoplay="true" interval="3000">
   <block wx:for="{{imgUrls}}">
@@ -16,7 +19,7 @@ autoplay="true" interval="3000">
         <image src="/images/satin.png" class="image"/>
         <view class="mark" ><text class="text-middle">段子</text></view>
     </view>
-    <view class="item_right" class="top_image" bindtap="isShowToast">
+    <view class="item_right" class="top_image" bindtap="goGirl">
         <image src="/images/girl.png" class="image"/>
         <view class="mark" ><text class="text-middle">福利</text></view>
     </view>

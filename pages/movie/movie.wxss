@@ -9,9 +9,8 @@
 .movie_header {
   background: #fff;
   display: flex;
-  width: 90%;
-  margin-left: 40rpx;
-  margin-right: 40rpx;
+  margin-left: 20rpx;
+  margin-right: 20rpx;
   margin-bottom: 40rpx;
 }
 
@@ -35,7 +34,6 @@
   display: flex;
   margin-top: 8rpx;
   margin-left: 8rpx;
-
   border-bottom: 1rpx solid #e1e1e1;
 }
 
@@ -59,7 +57,7 @@
   overflow: hidden;
   text-overflow: ellipsis;
   margin-left: 15rpx;
-  margin-top: 5rpx;
+  margin-top: 10rpx;
   font-size: 25rpx;
   color: #666666;
   max-width: 500rpx;

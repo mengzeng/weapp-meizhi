@@ -1,0 +1,9 @@
+<view class="girls_box">
+  <view class="girls_list">
+    <block wx:for="{{girls_list}}">
+      <view class="girls_item">
+        <image src="{{item.url}}" />
+      </view>
+    </block>
+  </view>
+</view>
