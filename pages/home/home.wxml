@@ -8,7 +8,7 @@ autoplay="true" interval="3000">
   </block>
 </swiper> 
 <view  class="item">
-    <view class="item_left" class="top_image"  bindtap="isShowToast">
+    <view class="item_left" class="top_image"  bindtap="movieHot">
         <image src="/images/food.png" class="image"/>
         <view class="mark" ><text class="text">热映</text></view>
     </view>
