@@ -1,5 +1,21 @@
  .slide-image{
   width: 100%;
+  height: 300rpx;
+} 
+.view-recommand{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+}
+.text-public{
+  padding-left: 30rpx;
+  width: 100rpx;
+  text-align: center;
+  align-items: center;
+}
+.view-text{
+  width: 100rpx;
+  text-align: center;
   height: 300px;
 } 
 .item{
