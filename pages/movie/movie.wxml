@@ -11,4 +11,7 @@
 <view class="vetural_line"></view>
 <text style="font-size:30rpx;font-color:#666">热映榜</text>
 </view>
+ <view class="movie_list"></view>
+<block wx:for={{messages}}>
+<navigator url="url"></navigator>> 
 </view>

@@ -2,7 +2,7 @@
   "pages":[
       "pages/movie/movie",
     "pages/home/home",
-  
+
     "pages/book/book",
     "pages/mine/mine",
     "pages/mine/about/about",
