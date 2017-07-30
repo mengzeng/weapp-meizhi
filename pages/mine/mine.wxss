@@ -1,1 +1,7 @@
-/* pages/mine/mine.wxss */
+.mine_item{
+  border-bottom: 1rpx solid #e1e1e1;
+  width: 100%;
+  height: 100rpx;
+  line-height: 100rpx;
+  padding-left: 15rpx;
+}

@@ -107,5 +107,10 @@ Page({
     wx.navigateTo({
       url: '/pages/home/girl/girl',
     })
+  },
+  more:function(event){
+    wx.navigateTo({
+      url: '/pages/home/android/android',
+    })
   }
 })

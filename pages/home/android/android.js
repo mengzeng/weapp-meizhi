@@ -11,7 +11,17 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+    var that = this;
+    wx.request({
+      method: 'GET',
+      url: 'https://gank.io/api/data/Android/30/1',
+      success: function (res) {
+        console.log(res.data.results);
+        that.setData({
+          androidlist: res.data.results
+        })
+      }
+    })
   },
 
   /**
@@ -61,20 +71,5 @@ Page({
    */
   onShareAppMessage: function () {
 
-  },
-  goProjectHome: function (event) {
-    wx.navigateTo({
-      url: '/pages/mine/introduce/introduce',
-    })
-  },
-  feedback: function (event) {
-    wx.navigateTo({
-      url: '/pages/mine/feedback/feedback',
-    })
-  },
-  about:function(event){
-    wx.navigateTo({
-      url: '/pages/mine/about/about',
-    })
   }
 })

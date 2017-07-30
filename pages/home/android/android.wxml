@@ -1,0 +1,11 @@
+<view class="android">大Android</view>
+
+<view class="android_box">
+  <view class="android_list">
+    <block wx:for="{{androidlist}}">
+      <view>
+    {{item.desc}}
+      </view>
+    </block>
+  </view>
+  </view>

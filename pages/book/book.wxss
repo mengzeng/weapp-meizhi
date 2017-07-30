@@ -1,0 +1,54 @@
+.swiper-tab {
+  width: 100%;
+  border-bottom: 2rpx solid #777;
+  text-align: center;
+  line-height: 80rpx;
+}
+
+.swiper-tab-list {
+  font-size: 30rpx;
+  display: inline-block;
+  width: 33.33%;
+  color: #777;
+}
+
+.on {
+  color: #da7c0c;
+  border-bottom: 5rpx solid #da7c0c;
+}
+
+.swiper-box {
+  display: block;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.swiper-box view {
+  text-align: center;
+}
+
+.books_item {
+  display: inline-block;
+  width: 32%;
+  margin: 0 0.66% 0 0.66%;
+}
+
+.book_img {
+  width: 200rpx;
+  height: 250rpx;
+}
+
+.book_name {
+  font-size: 30rpx;
+   white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 200rpx;
+}
+
+.book_rate {
+  font-size: 25rpx;
+  margin-top: 5rpx;
+  margin-bottom: 5rpx;
+}

@@ -1,5 +1,5 @@
 .girls_item {
     display: inline-flex;
     width: 49%;
-    margin: 0 0.5% 0 0.5%;
+    margin: 0 0.5% 0 0.5%
 }

@@ -13,7 +13,7 @@ Page({
   onLoad: function (options) {
     var that = this;
     wx.request({
-      url: 'http://gank.io/api/search/query/listview/category/%E7%A6%8F%E5%88%A9/count/30/page/1',
+      url: 'https://gank.io/api/search/query/listview/category/%E7%A6%8F%E5%88%A9/count/30/page/1',
       success: function (res) {
         console.log(res.data.results);
         that.setData({

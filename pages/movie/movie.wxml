@@ -1,5 +1,5 @@
 <view class="movie_page">
-<view class="head_line"></view>
+  <view class="head_line"></view>
   <view class="movie_header">
     <image src="/images/movie_header.jpg" class="image_header" style="height:120rpx;width:120rpx" />
     <view style="margin-left:30rpx">
@@ -20,7 +20,7 @@
             <image src="{{item.imgUrl}}" class="movie_item_img" />
             <view class="movie_item_text">
               <view class="movie_name1">{{item.movieName}}</view>
-                 <view class="movie_name">导演：{{item.directors}}</view>
+              <view class="movie_name">导演：{{item.directors}}</view>
               <view class="movie_name">主演：{{item.name}}</view>
               <view class="movie_name">类型：{{item.movie_type}}</view>
               <view class="movie_name">评分：{{item.rate}}</view>

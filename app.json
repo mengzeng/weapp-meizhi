@@ -1,11 +1,11 @@
 {
-  "pages":[
-      "pages/home/home",
-      "pages/movie/movie",
-  
-"pages/home/girl/girl",
-    "pages/book/book",
+  "pages": [
+    "pages/home/home",
     "pages/mine/mine",
+    "pages/movie/movie",
+    "pages/home/girl/girl",
+    "pages/book/book",
+    "pages/home/android/android",
     "pages/mine/about/about",
     "pages/mine/feedback/feedback",
     "pages/mine/introduce/introduce",
@@ -13,41 +13,42 @@
     "pages/index/index",
     "pages/logs/logs"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle":"black"
+    "navigationBarTextStyle": "black"
   },
   "tabBar": {
-        "color": "#8a8a8a",
-        "selectedColor": "#fcaf54",
-        "borderStyle": "black",
-        "backgroundColor": "#ffffff",        
-    "list": [{
-      "pagePath": "pages/home/home",
-      "text": "首页",
-      "iconPath": "images/tab_home_nomal.png",
-      "selectedIconPath": "images/tab_home_select.png"
-    },
-    {
-      "pagePath": "pages/movie/movie",
-      "text": "电影",
-      "iconPath": "images/tab_movie_nomal.png",
-      "selectedIconPath": "images/tab_movie_select.png"
-    },
-    {
-      "pagePath": "pages/book/book",
-      "text": "图书",
-      "iconPath": "images/tab_book_nomal.png",
-      "selectedIconPath": "images/tab_book_select.png"
-    },
-    {
-      "pagePath": "pages/mine/mine",
-      "text":"我的",
-      "iconPath":"images/tab_mine_nomal.png",
-      "selectedIconPath":"images/tab_mine_select.png"
-    }
+    "color": "#8a8a8a",
+    "selectedColor": "#fcaf54",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "images/tab_home_nomal.png",
+        "selectedIconPath": "images/tab_home_select.png"
+      },
+      {
+        "pagePath": "pages/movie/movie",
+        "text": "电影",
+        "iconPath": "images/tab_movie_nomal.png",
+        "selectedIconPath": "images/tab_movie_select.png"
+      },
+      {
+        "pagePath": "pages/book/book",
+        "text": "图书",
+        "iconPath": "images/tab_book_nomal.png",
+        "selectedIconPath": "images/tab_book_select.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "images/tab_mine_nomal.png",
+        "selectedIconPath": "images/tab_mine_select.png"
+      }
     ]
   }
 }
