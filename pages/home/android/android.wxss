@@ -1,3 +1,28 @@
-.android_item{
+.android_item {
   border-bottom: 1px solid #e1e1e1;
+  padding-bottom: 8rpx;
+  padding-top: 20rpx;
+}
+
+.text_desc {
+  margin-left: 15rpx;
+  font-size: 35rpx;
+  color: #000;
+}
+
+.text_author {
+  margin-left: 15rpx;
+  color: #666;
+  font-size: 25rpx;
+}
+.text1{
+  margin-top: 25rpx;
+}
+
+.text_date {
+  float: right;
+  margin-right: 15rpx;
+  margin-top: 20rpx;
+  color: #666;
+  font-size: 25rpx;
 }

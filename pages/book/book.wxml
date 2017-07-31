@@ -4,6 +4,7 @@
   <view class="swiper-tab-list {{currentTab==2 ? 'on' : ''}}" data-current="2" bindtap="swichNav">生活</view>
 </view>
 
+<scroll-view>
 <swiper current="{{currentTab}}" class="swiper-box" duration="300" style="height:{{winHeight - 31}}px" bindchange="bindChange">
   <swiper-item>
      <view class="books_box">
@@ -52,3 +53,4 @@
   </swiper-item>
 
 </swiper>
+</scroll-view>

@@ -28,7 +28,7 @@ Page({
     });
     wx.request({
       method: 'GET',
-      url: 'https://api.douban.com/v2/book/search?tag=综合&count=50',
+      url: 'https://api.douban.com/v2/book/search?tag=综合&count=9',
       header: {
         'content-type': 'json'
       },
@@ -47,13 +47,13 @@ Page({
     var url = "";
     switch (this.data.currentTab) {
       case 0:
-        url = 'https://api.douban.com/v2/book/search?tag=综合&count=50';
+        url = 'https://api.douban.com/v2/book/search?tag=综合&count=9';
         break;
       case 1:
-        url = 'https://api.douban.com/v2/book/search?tag=文化&count=50'
+        url = 'https://api.douban.com/v2/book/search?tag=文化&count=9';
         break
       case 2:
-        url = 'https://api.douban.com/v2/book/search?tag=生活&count=50'
+        url = 'https://api.douban.com/v2/book/search?tag=生活&count=9';
         break
     }
     wx.request({
@@ -95,13 +95,13 @@ Page({
         var url = "";
         switch (this.data.currentTab) {
           case 0:
-            url = 'https://api.douban.com/v2/book/search?tag=综合&count=50';
+            url = 'https://api.douban.com/v2/book/search?tag=综合&count=9';
             break;
           case 1:
-            url = 'https://api.douban.com/v2/book/search?tag=文化&count=50'
+            url = 'https://api.douban.com/v2/book/search?tag=文化&count=9'
             break
           case 2:
-            url = 'https://api.douban.com/v2/book/search?tag=生活&count=50'
+            url = 'https://api.douban.com/v2/book/search?tag=生活&count=9'
             break
         }
         wx.request({
@@ -151,13 +151,13 @@ Page({
     var url = "";
     switch (this.data.currentTab) {
       case 0:
-        url = 'https://api.douban.com/v2/book/search?tag=综合&count=50';
+        url = 'https://api.douban.com/v2/book/search?tag=综合&count=9';
         break;
       case 1:
-        url = 'https://api.douban.com/v2/book/search?tag=文化&count=50'
+        url = 'https://api.douban.com/v2/book/search?tag=文化&count=9'
         break
       case 2:
-        url = 'https://api.douban.com/v2/book/search?tag=生活&count=50'
+        url = 'https://api.douban.com/v2/book/search?tag=生活&count=9'
         break
     }
     wx.request({

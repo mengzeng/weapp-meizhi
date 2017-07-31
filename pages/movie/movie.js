@@ -20,6 +20,7 @@ Page({
         userInfo: userInfo
       })
     })
+
     var templist = new Array ;
     wx.request({
       method:'GET',
@@ -103,5 +104,10 @@ Page({
    */
   onShareAppMessage: function () {
 
+  },
+  goTop250:function(event){
+wx.navigateTo({
+  url: '/pages/movie/topmovie/topmovie',
+})
   }
 })

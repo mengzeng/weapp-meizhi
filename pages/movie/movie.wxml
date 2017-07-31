@@ -1,6 +1,6 @@
 <view class="movie_page">
   <view class="head_line"></view>
-  <view class="movie_header">
+  <view class="movie_header" bindtap="goTop250">
     <image src="/images/movie_header.jpg" class="image_header" style="height:120rpx;width:120rpx" />
     <view style="margin-left:30rpx">
       <view style="font-size:35rpx;margin-top:20rpx;color:#ff333333">豆瓣电影Top250</view>

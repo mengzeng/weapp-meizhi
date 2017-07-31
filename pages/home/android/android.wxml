@@ -1,11 +1,15 @@
-<view class="android">大Android</view>
-
 <view class="android_box">
   <view class="android_list">
-    <block wx:for="{{androidlist}}">
-      <view>
-    {{item.desc}}
+   <block wx:for="{{androidlist}}">
+    <view class="android_item">
+      <view class="text_desc">
+        {{item.desc}}
       </view>
+      <view class="text1">
+        <text class="text_author">{{item.who}}</text>
+        <text class="text_date">{{item.createdAt}}</text>
+      </view>
+    </view>
     </block>
   </view>
-  </view>
+</view>

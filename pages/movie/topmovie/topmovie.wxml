@@ -1,0 +1,13 @@
+<view class="books_box">
+      <view class="books_list">
+        <block wx:for="{{movielist}}">
+          <view class="books_item">
+            <view class="books_item_content">
+              <image src="{{item.images.medium}}" class="book_img" />
+              <view class="book_name">{{item.title}}</view>
+              <view class="book_rate">{{item.rating.average}}</view>
+            </view>
+          </view>
+        </block>
+      </view>
+    </view> 
