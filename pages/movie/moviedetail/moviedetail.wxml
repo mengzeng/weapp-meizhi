@@ -14,12 +14,13 @@
    <view class="vetural_line"></view>
     <text style="font-size:30rpx;font-color:#666">另称</text>
   </view>
-  <view class="movie_text_content"></view>
+  <view class="movie_text_content">
+  {{movieDetail.aka}} </view>
     <view class="movie_text_title" style="display:flex">
    <view class="vetural_line"></view>
     <text style="font-size:30rpx;font-color:#666">剧情介绍</text>
   </view>
-  <view class="movie_text_content"></view>
+  <view class="movie_text_content">movieDetail.summary</view>
     <view class="movie_text_title" style="display:flex">
    <view class="vetural_line"></view>
     <text style="font-size:30rpx;font-color:#666">导演&演员</text>

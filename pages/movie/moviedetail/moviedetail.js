@@ -21,6 +21,16 @@ Page({
       url: 'https://api.douban.com/v2/movie/subject/'+options.id,
       success:function(res){
         console.log("ssss",res.data);
+        var otherName ="";
+        for(var i= 0;i<res.data.aka.length;i++){
+          if(i==res.data.aka.length){
+            otherName = otherName + res.data.aka[i];
+          }else{
+            otherName = otherName + res.data.aka[i]+"/";
+          }
+       
+        }
+        res.data.aka =otherName;
         that.setData({
           movieDetail:res.data
         })
