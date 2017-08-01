@@ -1,10 +1,12 @@
+var url ='https://gank.io/api/search/query/listview/category/%E7%A6%8F%E5%88%A9/count/20/page/';
+var page = 1;
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-
+    hidden: true,  
   },
 
   /**
@@ -12,12 +14,16 @@ Page({
    */
   onLoad: function (options) {
     var that = this;
+    that.setData({
+      hidden: false
+    });  
     wx.request({
-      url: 'https://gank.io/api/search/query/listview/category/%E7%A6%8F%E5%88%A9/count/30/page/1',
+      url: url + page,
       success: function (res) {
         console.log(res.data.results);
         that.setData({
-          girls_list:res.data.results
+          girls_list:res.data.results,
+           hidden: true
         })
       }
     })
@@ -62,7 +68,24 @@ Page({
    * 页面上拉触底事件的处理函数
    */
   onReachBottom: function () {
-
+    var that = this;
+    that.setData({
+      hidden: true
+    });  
+    wx.request({
+      url: url + page,
+      success: function (res) {
+        var list = that.data.girls_list;
+        for(var i= 0;i<res.data.results.length;i++){
+          list.push(res.data.results[i])
+        }
+        that.setData({
+          girls_list:list,
+          hidden: true  
+        });
+        page++;
+      }
+    })
   },
 
   /**

@@ -20,10 +20,20 @@
    <view class="vetural_line"></view>
     <text style="font-size:30rpx;font-color:#666">剧情介绍</text>
   </view>
-  <view class="movie_text_content">movieDetail.summary</view>
+  <view class="movie_text_content">{{movieDetail.summary}}</view>
     <view class="movie_text_title" style="display:flex">
    <view class="vetural_line"></view>
-    <text style="font-size:30rpx;font-color:#666">导演&演员</text>
+    <text style="font-size:30rpx;font-color:#666">演员</text>
   </view>
-  <view class="movie_text_content"></view>
+      <view class="actorlist">
+      <block wx:for="{{actorlist}}">
+        <view>
+            <image src="{{item.avatars.small}}" class="movie_item_img" />
+            <view class="movie_item_text">
+              <view class="movie_name1">{{item.name}}</view>
+              <view class="movie_name">演员</view>
+            </view>
+        </view>
+      </block>
+    </view>
 </view>
