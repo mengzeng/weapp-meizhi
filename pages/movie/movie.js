@@ -42,6 +42,7 @@ Page({
          
           }
           movieData.name = actorName;//主演
+          movieData.id = res.data.subjects[i].id;
           movieData.movieName = res.data.subjects[i].title;
           movieData.imgUrl = res.data.subjects[i].images.medium;
           movieData.rate = res.data.subjects[i].rating.average;

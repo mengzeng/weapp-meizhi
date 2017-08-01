@@ -1,0 +1,28 @@
+<view>
+  <view class="movie_head">
+    <image src="{{movieDetail.images.medium}}" class="movie_item_img" />
+    <view class="movie_item_text">
+      <view class="movie_name1">{{movieDetail.title}}</view>
+      <view class="movie_name">导演：{{movieDetail.directors[0].name}}</view>
+      <view class="movie_name">主演：{{movieDetail.casts[0].name}}</view>
+      <view class="movie_name">类型：{{movieDetail.genres[0]}}</view>
+      <view class="movie_name">上映日期：{{movieDetail.year}}</view>
+      <view class="movie_name">评分：{{movieDetail.rating.average}}</view>
+    </view>
+  </view>
+  <view class="movie_text_title" style="display:flex">
+   <view class="vetural_line"></view>
+    <text style="font-size:30rpx;font-color:#666">另称</text>
+  </view>
+  <view class="movie_text_content"></view>
+    <view class="movie_text_title" style="display:flex">
+   <view class="vetural_line"></view>
+    <text style="font-size:30rpx;font-color:#666">剧情介绍</text>
+  </view>
+  <view class="movie_text_content"></view>
+    <view class="movie_text_title" style="display:flex">
+   <view class="vetural_line"></view>
+    <text style="font-size:30rpx;font-color:#666">导演&演员</text>
+  </view>
+  <view class="movie_text_content"></view>
+</view>

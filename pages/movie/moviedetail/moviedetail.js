@@ -11,6 +11,21 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
+    var that = this;
+    console.log('https://api.douban.com/v2/movie/subject/' + options.id);
+    wx.request({
+      method:'GET',
+      header:{
+        'content-type': 'json'
+      },
+      url: 'https://api.douban.com/v2/movie/subject/'+options.id,
+      success:function(res){
+        console.log("ssss",res.data);
+        that.setData({
+          movieDetail:res.data
+        })
+      }
+    })
     
   },
 

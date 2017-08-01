@@ -16,7 +16,7 @@
     <view class="movie_list">
       <block wx:for="{{movielist}}">
         <view>
-          <navigator url="../brand/index?id={{item.id}}" class="movie_item">
+          <navigator url="/pages/movie/moviedetail/moviedetail?id={{item.id}}" class="movie_item">
             <image src="{{item.imgUrl}}" class="movie_item_img" />
             <view class="movie_item_text">
               <view class="movie_name1">{{item.movieName}}</view>
