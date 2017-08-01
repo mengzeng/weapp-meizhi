@@ -1,12 +1,10 @@
 {
   "pages": [
-    "pages/mine/mine",
-      "pages/movie/movie",
-    "pages/movie/moviedetail/moviedetail",
-  
-    "pages/movie/topmovie/topmovie",
     "pages/home/home",
-   
+    "pages/mine/mine",
+    "pages/movie/movie",
+    "pages/movie/moviedetail/moviedetail",
+    "pages/movie/topmovie/topmovie",
     "pages/home/girl/girl",
     "pages/book/book",
     "pages/home/android/android",

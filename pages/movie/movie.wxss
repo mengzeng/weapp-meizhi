@@ -57,7 +57,7 @@
   overflow: hidden;
   text-overflow: ellipsis;
   margin-left: 15rpx;
-  margin-top: 10rpx;
+  margin-top: 8rpx;
   font-size: 25rpx;
   color: #666666;
   max-width: 500rpx;
