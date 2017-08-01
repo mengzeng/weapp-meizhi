@@ -9,7 +9,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    hidden: false
   },
 
   /**
@@ -17,6 +17,9 @@ Page({
    */
   onLoad: function (options) {
     var that = this;
+    that.setData({
+      hidden: false
+    });
     wx.request({
       method: 'GET',
       header: {
@@ -30,7 +33,8 @@ Page({
       success: function (res) {
         console.log("ssss", res.data);
         that.setData({
-          movielist: res.data.subjects
+          movielist: res.data.subjects,
+          hidden:true
         })
       }
     })
@@ -76,9 +80,9 @@ Page({
    */
   onReachBottom: function () {
     var that = this;
-    // that.setData({
-    //   hidden: true
-    // });
+    that.setData({
+      hidden: false
+    });
     wx.request({
       method: 'GET',
       header: {

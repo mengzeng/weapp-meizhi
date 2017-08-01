@@ -6,6 +6,7 @@ Page({
    * 页面的初始数据
    */
   data: {
+    hidden:false
   },
 
   /**
@@ -49,7 +50,8 @@ Page({
           templist.push(movieData);
         }
         that.setData ({
-          movielist:templist
+          movielist:templist,
+          hidden:true
         })
         console.log(templist);
       }
