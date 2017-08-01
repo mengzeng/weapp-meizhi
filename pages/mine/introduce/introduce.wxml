@@ -1,1 +1,9 @@
-<view class="introduce">介绍暂未开发</view>
+<view class="head_view" style="background:url('/images/homepage_header.png');width:100%;height:300rpx;">
+</view>
+<view class="introduce_text">项目介绍</view>
+<view class="text_contet"> 最近上班比较清闲（产品妹纸一直在浪，需求没整理好），无事可做，就趁着空闲时间做了个小程序</view>
+<view class="text_contet"> 里面的接口数据基本都是使用的是代码家和豆瓣的api,一切数据解释权都归代码家和豆瓣所有</view>
+<view class="text_contet"> 界面较丑还需优化，有些功能也还待完善，当然什么时候完善优化看心情了，也许不会在更了，毕竟只是用来练手熟悉下小程序的开发</view>
+<view class="bottom_view">
+------------冷夜制作----------
+</view>

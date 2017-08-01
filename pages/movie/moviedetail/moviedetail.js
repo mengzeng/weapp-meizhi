@@ -4,7 +4,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+hidden:false
   },
 
   /**
@@ -38,7 +38,8 @@ Page({
         console.log(actors);
         that.setData({
           movieDetail: res.data,
-          actorlist:actors
+          actorlist:actors,
+          hidden:true
         })
       }
     })

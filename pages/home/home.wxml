@@ -37,7 +37,7 @@
   </view>
   <view class="line_arrow" />
   <view class="view-android">
-    <view>
+    <view bindtap="isShowToast">
       <image src="/images/ios.png" class="image_android" />
       <text class="text_android">IOS</text>
       <view class="view_anroid_right">
@@ -47,4 +47,7 @@
     </view>
   </view>
   <image src="http://img06.tooopen.com/images/20160818/tooopen_sy_175833047715.jpg" style="width:100%; height:250rpx" />
+</view>
+<view class="bottom_view">
+------------ever_sprout制作----------
 </view>

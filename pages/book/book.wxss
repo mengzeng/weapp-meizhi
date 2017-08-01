@@ -52,3 +52,11 @@
   margin-top: 5rpx;
   margin-bottom: 5rpx;
 }
+.bottom_view{
+  position: absolute;
+  bottom: 10rpx;
+font-size: 35rpx;
+color: #000;
+width: 100%;
+text-align: center;
+}

@@ -1,11 +1,8 @@
 
 .movie_head {
   display: flex;
-  margin-top: 8rpx;
-  margin-left: 8rpx;
   padding-top: 20rpx;
   padding-bottom: 40rpx;
-  background-image:url('/images/stackblur_default.png');
 }
 
 .movie_item_img {
@@ -20,7 +17,7 @@
   overflow: hidden;
   text-overflow: ellipsis;
   margin-left: 15rpx;
-  margin-top: 10rpx;
+  margin-top: 15rpx;
   font-size: 35rpx;
     color: #fff;
 }
@@ -30,7 +27,7 @@
   overflow: hidden;
   text-overflow: ellipsis;
   margin-left: 15rpx;
-  margin-top: 10rpx;
+  margin-top: 12rpx;
   font-size: 25rpx;
   color: #fff;
   max-width: 500rpx;
@@ -38,7 +35,25 @@
 .vetural_line {
   margin-left: 15rpx;
   margin-right: 15rpx;
+  margin-top: 20rpx;
   background-color: red;
   height: 30rpx;
   width: 6rpx;
+}
+.text_title{
+  font-size: 35rpx;
+  color: #000;
+  margin-top: 20rpx;
+}
+.movie_text_content{
+  font-size: 25rpx;
+  color: #333;
+  margin-top: 25rpx;
+  margin-left: 15rpx;
+  margin-right: 15rpx;
+}
+.actor_item{
+  display: flex;
+  margin-top: 10rpx;
+  border-bottom: 1rpx solid #e1e1e1;
 }

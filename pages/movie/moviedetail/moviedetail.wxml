@@ -1,5 +1,5 @@
 <view>
-  <view class="movie_head">
+  <view class="movie_head" style="background:url('/images/stackblur_default.png')">
     <image src="{{movieDetail.images.medium}}" class="movie_item_img" />
     <view class="movie_item_text">
       <view class="movie_name1">{{movieDetail.title}}</view>
@@ -12,28 +12,34 @@
   </view>
   <view class="movie_text_title" style="display:flex">
    <view class="vetural_line"></view>
-    <text style="font-size:30rpx;font-color:#666">另称</text>
+    <text class="text_title">另称</text>
   </view>
   <view class="movie_text_content">
   {{movieDetail.aka}} </view>
     <view class="movie_text_title" style="display:flex">
    <view class="vetural_line"></view>
-    <text style="font-size:30rpx;font-color:#666">剧情介绍</text>
+    <text class="text_title">剧情介绍</text>
   </view>
   <view class="movie_text_content">{{movieDetail.summary}}</view>
     <view class="movie_text_title" style="display:flex">
    <view class="vetural_line"></view>
-    <text style="font-size:30rpx;font-color:#666">演员</text>
+    <text class="text_title">演员</text>
   </view>
       <view class="actorlist">
       <block wx:for="{{actorlist}}">
-        <view>
+        <view class="actor_item" >
             <image src="{{item.avatars.small}}" class="movie_item_img" />
             <view class="movie_item_text">
-              <view class="movie_name1">{{item.name}}</view>
-              <view class="movie_name">演员</view>
+              <view style="margin-top:25rpx">{{item.name}}</view>
+              <view style="font-size:25rpx;color:#666;margin-top:150rpx;">演员</view>
             </view>
         </view>
       </block>
     </view>
+</view>
+
+<view class="body-view">
+  <loading hidden="{{hidden}}" bindchange="loadingChange">
+    加载中...
+  </loading>
 </view>

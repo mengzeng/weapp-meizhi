@@ -1,3 +1,18 @@
+<view class="head_view" style="background:url('/images/ic_nav_bg.png');width:100%;height:300rpx;">
+<image src="/images/yelin.jpg" class="image"></image>
+<view class="text_view">
+<view class="text1">肥琳</view>
+<text class="text2">用户已登陆</text>
+</view>
+
+</view>
+
+
+
 <view class="mine_item" bindtap="goProjectHome">项目主页</view>
-<view class="mine_item" bindtap="feedBack">问题反馈</view>
 <view class="mine_item" bindtap="about">关于</view>
+
+<view class="bottom_view">
+------------ever_sprout制作----------
+</view>
+

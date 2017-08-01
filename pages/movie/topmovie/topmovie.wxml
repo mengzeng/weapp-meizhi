@@ -1,18 +1,19 @@
 <view class="books_box">
-      <view class="books_list">
-        <block wx:for="{{movielist}}">
-          <view class="books_item">
-            <view class="books_item_content">
-              <image src="{{item.images.medium}}" class="book_img" />
-              <view class="book_name">{{item.title}}</view>
-              <view class="book_rate">{{item.rating.average}}</view>
-            </view>
-          </view>
-        </block>
-      </view>
-    </view> 
-     <view class="body-view">  
-        <loading hidden="{{hidden}}" bindchange="loadingChange">  
-            加载中...  
-        </loading>  
- </view> 
+  <view class="books_list">
+    <block wx:for="{{movielist}}">
+      <navigator url="/pages/movie/moviedetail/moviedetail?id={{item.id}}" class="books_item">
+        <view class="books_item_content">
+          <image src="{{item.images.medium}}" class="book_img" />
+          <view class="book_name">{{item.title}}</view>
+          <view class="book_rate">{{item.rating.average}}</view>
+        </view>
+
+      </navigator>
+    </block>
+  </view>
+</view>
+<view class="body-view">
+  <loading hidden="{{hidden}}" bindchange="loadingChange">
+    加载中...
+  </loading>
+</view>
